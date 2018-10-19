@@ -1,0 +1,20 @@
+//simple program testing for different integers
+
+public class CaffeineBuzz {
+  public static String caffeineBuzz(int n){
+    String returnme;
+    if(n%3==0){
+      if(n%4==0)
+        returnme = "Coffee";
+      else
+      returnme = "Java";
+      if(n%2==0){
+      returnme = returnme + "Script";
+        }
+      }
+     else
+       returnme = "mocha_missing!";
+      
+     return returnme; 
+  }
+}
